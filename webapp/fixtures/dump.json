@@ -1,0 +1,155 @@
+[
+{
+  "model": "webapp.product",
+  "pk": 1,
+  "fields": {
+    "title": "HP ProBook 440 G9",
+    "description": "Ноутбук HP ProBook 440 G9 [6F2L9EA] 14\" FHD/ Core i7-1255U/ 8GB/ 512 GB SSD/ Win11Pro",
+    "category": "laptops",
+    "created_at": "2023-02-27T06:06:11.917Z",
+    "updated_at": "2023-02-27T06:06:11.917Z",
+    "price": "1100.00",
+    "image": "https://forcecom.kz/upload/iblock/6a1/jjyslx0wcdqklg83837avew43wm3lg7h.jpg",
+    "balance": 0,
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 2,
+  "fields": {
+    "title": "ASUS B9400",
+    "description": "Ноутбук ASUS B9400 W11P6/Blk/14.0/400nt/FHD/IPS/i5-1235U/Iris X/8GB/512GB/HD IR/WiFi6E+BT5.2/FPS/BL/2Y/90NX04Z1-M00J40",
+    "category": "laptops",
+    "created_at": "2023-02-27T06:06:51.153Z",
+    "updated_at": "2023-02-27T06:10:00.910Z",
+    "price": "1200.00",
+    "image": "https://forcecom.kz/upload/iblock/01c/27c2kc9d88ehvzria5koucquw0qxiygf.jpg",
+    "balance": 10,
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 3,
+  "fields": {
+    "title": "Dell Vostro 3515 (210-BBHJ-A1) 15,6\"",
+    "description": "Ноутбук Dell Vostro 3515 (210-BBHJ-A1) 15,6\" FHD/ Ryzen 3 3250U/ 8 GB/ 256 GB SSD/ Win11 Pro",
+    "category": "laptops",
+    "created_at": "2023-02-27T06:09:38.749Z",
+    "updated_at": "2023-02-27T06:09:38.749Z",
+    "price": "700.00",
+    "image": "https://forcecom.kz/upload/iblock/0cd/0cdfd77acd88fa798fc2b586d4ccb836.jpg",
+    "balance": 5,
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 4,
+  "fields": {
+    "title": "Redmi Note 10 Pro",
+    "description": "Redmi Note 10 Pro 8GB RAM 256GB ROM Onyx Gray",
+    "category": "phones",
+    "created_at": "2023-02-27T06:11:00.677Z",
+    "updated_at": "2023-03-13T15:01:33.337Z",
+    "price": "150.00",
+    "image": "https://forcecom.kz/upload/iblock/3d9/3d9cf63a789697eba1b2486b61a9e995.jpg",
+    "balance": 3,
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 5,
+  "fields": {
+    "title": "Xiaomi 11T 8GB RAM 128GB",
+    "description": "Xiaomi 11T 8GB RAM \r\n128GB ROM \r\nCelestial Blue",
+    "category": "phones",
+    "created_at": "2023-02-27T06:12:06.879Z",
+    "updated_at": "2023-02-27T06:12:06.879Z",
+    "price": "450.00",
+    "image": "https://forcecom.kz/upload/iblock/1a5/1a59b2254deffc4470b6e94456cbe6ef.jpg",
+    "balance": 15,
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 6,
+  "fields": {
+    "title": "RITMIX VC-030WB",
+    "description": "Робот-пылесос Ritmix VC-030WB проводит не только сухую уборку помещений, но и влажную путем распыления воды. Робот-пылесос оснащен встроенным аккумулятором на 2000 мА/ч. На одном заряде он способен сделать уборку на площади до 120 м². В случае падения прочный корпус пылесоса защитит устройство от повреждений и поломок.",
+    "category": "other",
+    "created_at": "2023-02-27T06:13:10.209Z",
+    "updated_at": "2023-02-27T06:13:10.209Z",
+    "price": "200.00",
+    "image": "https://forcecom.kz/upload/iblock/7e1/7e17c54cc23a561907db9f5bda39b114.jpg",
+    "balance": 6,
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 7,
+  "fields": {
+    "title": "Ufesa Fryer AF5000 SL Phantom",
+    "description": "Аэрогриль Ufesa Fryer AF5000 SL Phantom 72805249\r\n1500 Вт\r\nЕмкость: 5 л\r\nУмное управление WIFI\r\nЦифровое сенсорное управление временем и температурой.",
+    "category": "other",
+    "created_at": "2023-02-27T06:14:22.663Z",
+    "updated_at": "2023-02-27T06:14:22.663Z",
+    "price": "130.00",
+    "image": "https://forcecom.kz/upload/iblock/268/2682062b1cb7329387751c8bb4a9ec99.jpeg",
+    "balance": 17,
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 8,
+  "fields": {
+    "title": "Wi-Fi D-Link DIR-615/Z1A2",
+    "description": "В маршрутизаторе реализовано множество функций для беспроводного интерфейса. Устройство поддерживает несколько стандартов безопасности (WEP, WPA/WPA2), фильтрацию подключаемых устройств по MAC-адресу, а также позволяет использовать технологии WPS и WMM",
+    "category": "other",
+    "created_at": "2023-02-27T06:15:56.081Z",
+    "updated_at": "2023-03-13T15:03:40.988Z",
+    "price": "20.00",
+    "image": "https://forcecom.kz/upload/iblock/6f9/6f95d34e140c0089475d246fd2ecce51.jpg",
+    "balance": 8,
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 9,
+  "fields": {
+    "title": "Беспроводная гарнитура HOCO TWS ES60",
+    "description": "Беспроводная гарнитура HOCO TWS ES60, Bluetooth 16ohm, 20-20000Hz, 92dB, black",
+    "category": "other",
+    "created_at": "2023-02-27T06:18:49.935Z",
+    "updated_at": "2023-02-27T06:18:59.756Z",
+    "price": "40.00",
+    "image": "https://forcecom.kz/upload/iblock/996/996241425e6c65ae694412c406570f38.jpg",
+    "balance": 3,
+    "is_deleted": true
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$sWceMIWoRrwcdPg9vw7rnh$vBRJwcYbidQ6z5RLSuJSJ0Z0swhpNIrSSyTnjI3ZlTM=",
+    "last_login": "2023-02-27T06:00:48.174Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-02-27T06:00:09.064Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
