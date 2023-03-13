@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}Product{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="card mb-3 modern">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <img class="image_flex_product" src="{{ product.image }}" alt="product photo">
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6">
+                <div class="card-body">
+                    <h1 class="card-title">Title: {{ product.title }}</h1>
+                    <p>Category: {{ product.category }}</p>
+                    <h2>Price: {{ product.price }}$</h2>
+                    <p class="card-text transfer_text_space">Description: {{ product.description }}</p>
+                    <p class="card-text">Qty: {{ product.balance }}</p>
+                    <p class="card-text"><small class="text-muted">{{ product.created_at }}</small></p>
+                    <span class="button_padding"><a href="{% url 'product_edit' product.pk %}"
+                            class="btn btn-info">Edit</a></span>
+                    <span class="button_padding"><a href="{% url 'product_delete' product.pk %}"
+                            class="btn btn-danger">Delete</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
