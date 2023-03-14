@@ -1,9 +1,9 @@
 import string
 from django import forms
 from django.core.exceptions import ValidationError
+from django.db.models import Sum
 
-
-from webapp.models import Product
+from webapp.models import Product, Cart
 
 
 def eng_letters_validator(title):
@@ -64,3 +64,16 @@ class ProductForm(forms.ModelForm):
 
 class SearchForm(forms.Form):
     search = forms.CharField(max_length=20, required=False, label="Search")
+
+
+class CartForm(forms.ModelForm):
+
+    class Meta:
+        model = Cart
+        fields = (
+            "balance",
+        )
+
+        labels = {
+            "balance": "Количество",
+        }

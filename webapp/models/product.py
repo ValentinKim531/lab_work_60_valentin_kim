@@ -6,7 +6,6 @@ from django.core.validators import MinValueValidator
 
 # Create your models here.
 
-
 class StatusChoice(TextChoices):
     OTHER = "other", "Разное"
     PHONE = "phones", "Смартфоны"

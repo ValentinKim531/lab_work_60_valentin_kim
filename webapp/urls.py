@@ -1,11 +1,12 @@
 from django.urls import path
+
+from webapp.views.cart_view import CartView
 from webapp.views.product_view import (
     ProductDetail,
     ProductUpdateView,
-    ProductDeleteView,
+    ProductDeleteView, ProductCreateView,
 )
 
-from webapp.views.product_add_view import ProductCreateView
 from webapp.views.products_view import ProductView, ProductRedirectView
 
 urlpatterns = [
@@ -28,4 +29,5 @@ urlpatterns = [
         ProductUpdateView.as_view(),
         name="product_edit",
     ),
+    path("cart/", CartView.as_view(), name="cart_view"),
 ]
